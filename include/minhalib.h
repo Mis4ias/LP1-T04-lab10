@@ -1,10 +1,10 @@
 #ifndef _MINHALIB_H_
 #define _MINHALIB_H_
-
-namesoace exemplo{
+using namespace std;
+namespace exemplo{
 	
-	extern "C" void imprime(std::string frase);
-	extern "C" void soma(int valorA, int valorB);
+	extern "C" void imprime(string frase);
+	extern "C" int soma(int valorA, int valorB);
 
 
 	template <typename T>

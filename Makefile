@@ -26,6 +26,3 @@ prog_estatico:
 prog_dinamico:
 	$(CC) $(CFLAGS) $(SRC_DIR)/main.cpp $(LIB_DIR)/minhalib.so -o $(OBJ_DIR)/$@
 
-clean:
-	@acho "Removendo arquivos objeto e executaveis/binarios..."
-	@rm -rf $(OBJ_DIR)/*

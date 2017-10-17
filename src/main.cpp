@@ -7,7 +7,7 @@ int main(void){
 	
 
 
-	string frase ="Olá mundo!";
+	string frase = "Olá mundo!";
 
 	imprime(frase);
 	cout << "Resultado da soma 5+6: "<< soma(5,6)<<endl;

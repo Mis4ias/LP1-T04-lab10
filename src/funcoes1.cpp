@@ -4,7 +4,7 @@
 using namespace std;
 
 namespace exemplo{
-	void imprime(std::string frase){
+	void imprime(string frase){
 		cout << frase << endl;
 	}
 }
